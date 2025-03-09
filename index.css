@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-image: url(./Images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 0px;
+}
+#one{
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:#363636;
+}
+a{
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+    color: white;
+}
+#left>h3{
+    margin: 0;                            /*it will remove extra margin*/
+    display: flex;
+    color: white;
+}
+#right{
+    display: flex;
+    justify-content:right;
+    font-size:12px;
+    gap: 20px;
+}
+#two{
+    padding-bottom:8rem;
+}
+#two>#two-cont>h1{
+    padding-top: 8rem;
+    display:flex;
+    font-size: 3rem;
+    margin: auto;
+    justify-content: center;
+    color: white;
+}
+#two>#two-cont>p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+#two>#two-cont>#butn1{
+    display: flex;
+    justify-content: center;
+    background-color:#69ad31;
+    margin: auto;
+    color: white;
+    padding: 1rem;
+    /* margin-left:37rem; */
+    border-radius: 3px;
+    border: 1px solid white ;
+}
+
+#three{
+    padding-top:1rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    gap: 2rem;
+    /* margin: auto; */
+}
+#three>#three-cont1{
+    width: 50%;
+}
+#three>#three-cont1>h2>span{
+    color: #69ad31;
+}
+#three>#three-cont1>p{
+    font-size: 15px;
+}
+#three>#three-cont1>#butn{
+    background-color:#69ad31;
+    border-radius:4px;
+    padding: 1rem;
+    color: white;
+
+}
+#three>#three-cont2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    gap: 20px;
+
+}
+#three>#three-cont2>#child-cont1{
+    width:50%;
+}
+#three>#three-cont2>#child-cont1>img{
+    width: 100%;
+}
+#three>#three-cont2>#child-cont2{
+    width: 50%;
+}
+#three>#three-cont2>#child-cont2>img{
+    width: 100%;
+}
+
+#four{
+    width: 100%;
+    background-color: #69ad31;
+}
+#four-cont1{
+    display: block;
+    justify-content:center;
+    padding-top: 5rem;
+}
+#four>#four-cont1>h1{
+    color: white;
+    padding-left: 36rem;
+    /* margin: auto; */
+}
+#four>#four-cont1>p{
+    color: white;
+    padding-left: 19rem;
+}
+#four>#four-cont2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    color: white;
+}
+#four>#four-cont2>#fchild1{
+    width: 25%;
+}
+#four>#four-cont2>#fchild1>img{
+    border:1rem solid #78b546;
+    border-radius: 10rem;
+}
+#four>#four-cont2>#fchild2{
+    width: 25%;
+}
+#four>#four-cont2>#fchild2>img{
+    border:1rem solid #78b546;
+    border-radius: 10rem;
+}
+#four>#four-cont2>#fchild3{
+    width: 25%;
+}
+#four>#four-cont2>#fchild3>img{
+    border:1rem solid #78b546;
+    border-radius: 10rem;
+}
+#four>#four-cont2>#fchild4{
+    width: 25%;
+}
+#four>#four-cont2>#fchild4>img{
+    border:1rem solid #78b546;
+    border-radius: 10rem;
+}
+#five{
+    width: 100%;
+    text-align: center;
+    padding-top:3rem;
+}
+#five-cont1>h1{
+    font-size: 2rem;
+}
+#five-cont1>p{
+    color: #6a6666 ;
+    font-size:1.5rem;
+}
+#five-cont2{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+    gap: 1rem;
+}
+#five>#five-cont2>#butn1{
+    background-color:#69ad31;
+    padding: 8px;
+    color: white;
+    border: 0px solid #69ad31;
+    border-radius: 4px;
+}
+#five-cont2>.butn2{
+    background-color: #e5e5e5;
+    color: #6a6666;
+    padding: 8px;
+    border: 0px solid #6a6666;
+    border-radius: 4px;
+}
+
+#five-cont3>#img-cont1{
+    display: flex;
+    justify-content:center;
+    padding-left: 10rem;
+    width: 80%;
+}
+.imgg{
+    width: 30%;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    justify-content: space-between;
+}
+#five-cont3>#img-cont2{
+    display:flex;
+    justify-content:center;
+    width: 70%;
+}
+.imgg1{
+    width: 40%;
+    display: flex;
+    padding: 20px 10px 20px 10px;
+    justify-content: space-between;
+}
+#five-cont3>#img-cont3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+.imgg2{
+    width: 30%;
+    display: flex;
+    padding: 20px 10px 9px 10px;
+    justify-content: space-between;
+}
